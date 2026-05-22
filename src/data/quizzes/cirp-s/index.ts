@@ -1,4 +1,8 @@
-// Will be populated after content generation
-import type { Quiz } from '../../../types';
+import { takeoverDefenseQuiz } from './takeover-defense-quiz';
 
-export const cirpSQuizzes: Quiz[] = [];
+export { takeoverDefenseQuiz } from './takeover-defense-quiz';
+
+export const cirpSQuizzes = [
+  takeoverDefenseQuiz,
+  // more quizzes will be added as they are generated
+];
